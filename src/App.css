@@ -1,0 +1,50 @@
+
+.alert {
+  width: 40%;
+  border-radius: 5px;
+  margin-top: 1rem;
+  padding: 30px 20px;
+}
+
+.alert-close {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.alert-message {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.alert-danger {
+  background: rgba(255, 0, 0, 0.35);
+  border: 1px solid #ff0000;
+  color: maroon;
+}
+
+.alert-success {
+  background-color: rgba(37, 211, 102, 0.35);
+  border: 1px solid #25d366;
+  color: #126732;
+}
+
+.alert-info {
+  background: rgba(10, 100, 255, 0.35);
+  border: 1px solid #17a2b8;
+}
+
+.fadeAlert { 
+  animation: fadeAlert 0.5s ease-in-out;
+}
+
+@keyframes fadeAlert {
+  0% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(0);
+  }
+}
